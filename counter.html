@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Raccolta firme contro divisa scolastica IC Aradeo/Neviano "Ezio Bosso"</title>
+  <style>
+    body {
+      text-align: center;
+      font-size: 28px;
+    }
+    #counter, #label {
+      font-size: 60px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Raccolta firme contro divisa scolastica IC Aradeo/Neviano "Ezio Bosso"</h1>
+  <p>
+    <label for="counter" id="label">Firme raccolte: </label>
+    <span id="counter">0</span>
+  </p>
+
+  <script>
+    var counterElement = document.getElementById("counter");
+    var counterValue = 0;
+
+    function incrementCounter() {
+      counterValue++;
+      counterElement.textContent = counterValue;
+    }
+  </script>
+</body>
+</html>
